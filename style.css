@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+
+}
+
+
+
+
+.banner{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.40));
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+.view{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  object-fit: cover;
+
+
+}
+.navbar{
+  width: 90%;
+  padding:30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 100px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding: 15px;
+}
+li a:hover{
+  background-color: white;
+  transition: 0.6s;
+}
+.navbar a:hover{
+  color: black;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  color: white;
+  top: 35%;
+  text-align: center;
+
+}
+.content h1{
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: 800;
+}
+button{
+
+  width: 200px;
+  padding: 15px;
+  margin: 20px 5px;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
+  border: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover{
+  background: rgb(0, 192, 226);
+  transition: 0.5s;
+  color: white;
+}
+.banner video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 700px) {
+.navbar{
+  flex-direction: column;
+}
+
+}
+  
+
+
+
+
+
+
